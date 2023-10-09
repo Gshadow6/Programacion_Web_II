@@ -1,0 +1,34 @@
+Cinco programas para crear:
+1. Conteo de caracteres totales de un archivo de texto plano
+2. Conteo de cada uno de los diferentes caracteres contenidos en un archivo de texto plano
+3. Conteo de palabras, solicitando el separador de palabras (puede ser cualquiera, el habitual espacio en blanco)
+4. Conteo de lineas, solicitando el separador de línea (puede ser cualquiera, el habitual enter o en algunos lenguajes el punto y coma ;)
+5. Lectura de números romanos desde un archivo que contiene una cadena continua de símbolos para números romanos.
+
+
+1. Conteo de caracteres totales de un archivo de texto plano
+Lee un archivo de texto plano y como salida indica la cantidad total de caracteres que contiene el archivo de texto plano.
+
+2. Conteo de cada uno de los diferentes caracteres contenidos en un archivo de texto plano
+Lee un archivo de texto plano y como salida indica la cantidad que hay de cada uno de los caracteres que contiene el archivo de texto plano. Cuantas a, b, 3, 8, =, ... , no muestra los caracteres con cero ocurrencias en el archivo de texto.
+
+3. Conteo de palabras, solicitando el separador de palabras (puede ser cualquiera, el habitual espacio en blanco)
+Lee un archivo de texto plano, pide se introduzca el carácter que el programa reconocerá como separador de palabras. y como salida indica la cantidad total de palabras que contiene el archivo de texto plano.
+Por ejemplo, si el carácter de separación es el guió "-" y se tiene:
+ammfikf fdjerr- kldf,o pp
+,gfg ---- h.
+El total de palabras es de: tres (3)
+1: ammfikf fdjerr-
+2: kldf,o pp
+,gfg ----
+3: h.
+
+4. Conteo de lineas, solicitando el separador de línea (puede ser cualquiera, el habitual enter o en algunos lenguajes el punto y coma ;)
+De forma semejante al programa anterior, lee un archivo de texto plano, pide se introduzca el carácter que el programa reconocerá como separador de línea. y como salida indica la cantidad total de líneas que contiene el archivo de texto plano. Si el separador de línea se repite uno tras otro, sea la cantidad que sea se considera como si fuese solo uno.
+
+5. Lectura de números romanos desde un archivo que contiene una cadena continua de símbolos para números romanos.
+Primer punto a aclarar: NO es un convertidor de número romano a número arábigo, al que se le de un número romano y lo convierta en arábigo o indique que no es correcto.
+Lo que SÍ es: Lee un archivo de texto plano, que solo incluye de forma continua las letras que se usan para escribir los números romanos I, V, X, L C, D, M (sin espacios u otro carácter) y lo va desglosando por bloques válidos.
+Ejemplo:
+XXXXXVVVIIIIC
+30 25 5 8 1 100
